@@ -3,6 +3,27 @@ POST http://localhost:8080/books
 Content-Type: application/json
 
 {
-    "title":"belajar java",
+    "title":"belajar javascript",
     "author": "posospace"
+}
+
+###
+GET http://localhost:8080/books
+
+###register
+POST http://localhost:8080/register
+Content-Type: application/json
+
+{
+    "username":"kiki",
+    "password":"rahasia"
+}
+
+###login
+POST  http://localhost:8080/login
+Content-Type: application/json
+
+{
+    "username": "kiki",
+    "password": "rahasia"
 }
